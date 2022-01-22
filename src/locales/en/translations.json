@@ -1,0 +1,285 @@
+{
+  "menu": {
+    "dashboard": "Dashboard",
+    "orders": "Order History",
+    "live_orders": "Live Orders",
+    "venue": "Venue",
+    "menus": "Menus",
+    "discounts": "Discounts",
+    "customers": "Customers",
+    "reports": "Reports",
+    "whats_new": "What's new",
+    "feature_requests": "Feature Requests",
+    "settings": "Settings"
+  },
+  "common": {
+    "business_name": "Business Name",
+    "header": "Chowtime Dashboard",
+    "create_product": "Create a product",
+    "create_category": "Create a category",
+    "category_name_placeholder_text": "e.g. Appetizers, Mains, Drinks",
+    "overview_for": "Overview For",
+    "create_account": "Create your account",
+    "optional": "\n(optional)",
+    "google": "Google",
+    "or": "OR",
+    "read": "I have read the",
+    "t_and_c": "Terms and Conditions",
+    "remember": "Remember me",
+    "full_name": "Full Name",
+    "first_name": "First Name",
+    "middle_name": "Middle Name",
+    "last_name": "Last Name",
+    "email_address": "Email Address",
+    "password": "Password",
+    "phone_number": "Phone Number",
+    "login_cta": "Have an account? Login.",
+    "register_cta": "Create new account",
+    "forgot_password": "Forgot password?",
+    "sign_up": "Sign Up!",
+    "sign_up_almost": "Almost done!",
+    "login": "Log in",
+    "cancel": "Cancel",
+    "create": "Create",
+    "edit": "Edit",
+    "save": "Save Changes",
+    "close": "Close",
+    "exit": "Exit",
+    "delete": "Delete"
+  },
+  "dashboard": {
+    "total_sales": "Total Sales",
+    "total_orders": "Total # Orders",
+    "avg_order_value": "Average Order Value",
+    "open_orders": "# Open Orders"
+  },
+  "menus": {
+    "menu": "Menu: ",
+    "create_menu": "Create a Menu",
+    "edit_menu": "Edit Menu",
+    "last_updated": "Last updated: ",
+    "created": "Created: ",
+    "create_menu_modal": {
+      "name": "Name",
+      "name_placeholder": "e.g. Main Menu/Happy Hour Menu/Set Menu",
+      "description": "Description",
+      "description_placeholder": "",
+      "banner_image": "Banner Image",
+      "image_placeholder": "Click to upload a file",
+      "image_placeholder2": "PNG, JPG up to 10MB\nImages with bright, beautiful backgrounds stand out and look the best!",
+      "sku": "SKU/PLU",
+      "sku_placeholder": "ABC01",
+      "price": "Price",
+      "currency_sign": "$",
+      "currency": "HKD"
+    }
+  },
+  "tabs_drawer": {
+    "edit_menu_header": "Edit Menu",
+    "edit_product_header": "Edit Product",
+    "edit_category_header": "Edit Category",
+    "details": {
+      "header": "Details",
+      "name_placeholder_text": "e.g. Four Seasons Pizza",
+      "available_switch_text": "Is available",
+      "highlight_switch_text": "Highlight as popular item",
+      "track_inventory_switch_text": "Track Inventory"
+    },
+    "tabs_allergens": {
+      "header": "Tags & Allergens"
+    },
+    "modifiers": {
+      "column_names": {
+        "group": "Group",
+        "options": "Options"
+      },
+      "select": {
+        "description": "Use an existing modifier group. Note that any changes made to a shared modifier group will be applied against all products.",
+        "already_added": "Added",
+        "add_group_to_product": "Add group to product"
+      },
+      "list": {
+        "label": "Add a modifier group"
+      },
+      "edit": {
+        "modifier_placeholder_text": "e.g. Choose a side",
+        "is_required": "Required",
+        "is_unlimited": "Unlimited",
+        "cta_button_text": "Save Modifiers",
+        "add_option": "Add an option",
+        "secondary_button_text": "Go Back",
+        "remove_group": "Remove Group"
+      },
+      "header": "Modifiers",
+      "description": "Let customers make choices about their item - for example, picking a size, adding a topping or upgrading with sides and drinks.",
+      "buttons": [
+        {
+          "text": "Create a new group"
+        },
+        {
+          "text": "Use an existing group"
+        }
+      ]
+    },
+    "delete": {
+      "header": "Delete",
+      "menu": {
+        "description": "Are you sure you want to delete the {{menu}} menu? This action can't be undone."
+      },
+      "product": {
+        "description": "Are you sure you want to delete the {{product}} product? This action can't be undone."
+      },
+      "category": {
+        "description": "Are you sure you want to delete the {{category}} category, all products within this category will also be deleted. This action can't be undone."
+      }
+    },
+    "printing": {
+      "header": "Printing",
+      "title": "No printers",
+      "description": "You will need to connect a printer first."
+    },
+    "availability": {
+      "header": "Availability",
+      "always_available_option_text": "Category always available"
+    }
+  },
+  "orders": {
+    "all_orders": {
+      "search": "Search orders",
+      "order_status": "Order status",
+      "group_by_date": "Group by date",
+      "column_names": {
+        "order": "Order",
+        "type": "Type",
+        "requested_for": "Requested For",
+        "total": "Total",
+        "status": "Status",
+        "items": "Items",
+        "customer": "Customer"
+      },
+      "no_orders": "No orders found for the selected options"
+    },
+    "live_orders": "Live Orders",
+    "table": "Table",
+    "order_confirmation": "Order #",
+    "payment_method": "Payment Method",
+    "customer_request": "Customer Requests",
+    "quantity_x": "x",
+    "table_columns": {
+      "items": "Items",
+      "quantity": "Quantity",
+      "price": "Price"
+    },
+    "customer": "Customer",
+    "orders": "orders",
+    "ago": "ago",
+    "contact_info": "Contact Information",
+    "service_charge": "Service Charge",
+    "tip": "Additional Tip",
+    "total": "Total"
+  },
+  "venue": {
+    "add_area_button_text": "Add an area",
+    "add_table_button_text": "Add a table",
+    "delete_area_button_text": "Delete Area",
+    "delete_area_modal": {
+      "header": "Delete Area",
+      "description": "Are you sure you want to delete area? All tables under this area will also be deleted.",
+      "button_text": "Delete area"
+    },
+    "delete_table_modal": {
+      "header": "Delete Table",
+      "description": "Are you sure you want to delete table?",
+      "button_text": "Delete table"
+    },
+    "add_area_modal": {
+      "header": "Add an area",
+      "button_text": "Create Area",
+      "placeholder_text": "e.g. Main Dining Room, Bar, Terrace"
+    },
+    "add_table_modal": {
+      "header": "Add a table",
+      "button_text": "Create Table",
+      "placeholder_text": "e.g. Table 1"
+    },
+    "header": "Tables",
+    "description": "Create your tables, and use areas to group tables together.",
+    "settings": {
+      "label": "Location names",
+      "description": "By default we use \"Table\" to refer to where your customers are within your store, but you can change this to anything you like. For example, Room, Hole or Booth",
+      "placeholder_text": "Table",
+      "label2": "Order instructions",
+      "description2": "We'll show this message to your customers when they first visit your ordering site. Leave it as the default or write your own.",
+      "placeholder_text_2": "Place your order quick and easy and we will deliver to your table."
+    }
+  },
+  "settings": {
+    "tile1": {
+      "label": "Details",
+      "description": "Give your store a name and short description",
+      "store_name": "Store Name",
+      "store_name_placeholder": "e.g. Quarantinos",
+      "about_name": "About",
+      "about_disclaimer_text": "(we recommend 150-300 characters)."
+    },
+    "tile2": {
+      "label": "Contacts",
+      "description": "Your customers will use this information to contact you.",
+      "email_name": "Email address",
+      "email_placeholder": "hello@example.com",
+      "phone_name": "Phone number",
+      "phone_placeholder": "5929 4473",
+      "website_name": "Website",
+      "website_placeholder": "https://example.com"
+    },
+    "tile3": {
+      "label": "Store Address",
+      "description": "This address will show on your store and be used to calculate delivery distances.",
+      "street_name": "Street address",
+      "street_placeholder": "e.g. 101 High St",
+      "building_name": "Building name/number",
+      "building_placeholder": "e.g. 15-17",
+      "city_name": "City",
+      "city_placeholder": "e.g. Hong Kong",
+      "postcode_name": "Post code",
+      "postcode_placeholder": "e.g. 000000",
+      "country": "Country"
+    },
+    "tile4": {
+      "label": "Opening Hours",
+      "description": "Your customers can only place orders if your store is \"open\" at the time they checkout. Set your opening times for each day here.",
+      "description2": "Add multiple time periods if you close and re-open during one day. For example you could be open from 9AM to 1PM and then 5PM to 10PM.",
+      "add_time_period": "Add time period",
+      "add_more_time_period": "Add another time period",
+      "open_always": "Open 24 hours",
+      "closed": "Closed",
+      "to": "to"
+    },
+    "tile5": {
+      "label": "Payment provider",
+      "description": "Enable and manage your payment processing settings to start accepting credit and debit cards.",
+      "payment_info": "Connect your store to Stripe Payments to accept credit/debit card and Apple/Google Pay payments.",
+      "rate_label": "Credit/debit card rate",
+      "rate_description": "3.5%",
+      "supported_payment_providers": "Supported payment providers"
+    }
+  },
+  "table": {
+    "column_name": {
+      "name": "Name",
+      "modifiers": "Modifiers",
+      "popular": "Popular",
+      "active": "Active",
+      "price": "Price",
+      "edit": "Edit"
+    },
+    "global_column_name": {
+      "modifiers": "Modifiers"
+    }
+  },
+  "toaster": {
+    "success_created": "Successfully created!",
+    "success_saved": "Successfully saved!",
+    "success_deleted": "Successfully deleted!"
+  }
+}
